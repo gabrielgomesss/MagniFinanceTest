@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/MagniFinanceTest/static/css/main.6e9eb153.css",
-    "main.js": "/MagniFinanceTest/static/js/main.5251ad2e.js",
+    "main.js": "/MagniFinanceTest/static/js/main.62cab985.js",
     "static/media/profile.png": "/MagniFinanceTest/static/media/profile.4803d0a29762efd159d8.png",
     "static/media/professor.jpg": "/MagniFinanceTest/static/media/professor.7a4a71014c4d606bd12f.jpg",
     "static/media/materia.webp": "/MagniFinanceTest/static/media/materia.69de7acea7d9c3293157.webp",
@@ -15,10 +15,10 @@
     "static/media/user.svg": "/MagniFinanceTest/static/media/user.7a5044c24fe5f9e251bd3aed3ca84df8.svg",
     "static/media/add.svg": "/MagniFinanceTest/static/media/add.f90a1d01b3af44a9e4f4d60a24a41bc2.svg",
     "main.6e9eb153.css.map": "/MagniFinanceTest/static/css/main.6e9eb153.css.map",
-    "main.5251ad2e.js.map": "/MagniFinanceTest/static/js/main.5251ad2e.js.map"
+    "main.62cab985.js.map": "/MagniFinanceTest/static/js/main.62cab985.js.map"
   },
   "entrypoints": [
     "static/css/main.6e9eb153.css",
-    "static/js/main.5251ad2e.js"
+    "static/js/main.62cab985.js"
   ]
 }
