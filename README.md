@@ -26,3 +26,4 @@ The webapp was developed using React, styled components, firebase.
 i also used a Scrum metodology to organize my ideias and daily tasks.
 
 # MagniFinanceTest
+# gabrielgomesss.github.io
