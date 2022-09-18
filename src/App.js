@@ -1,11 +1,12 @@
 import './App.css';
-import { BrowserRouter } from 'react-router-dom'
+import { BrowserRouter, HashRouter, Route } from 'react-router-dom'
 import Routes from './Routes'
+import RoutesApp from './Routes'
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter>
       <Routes />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 

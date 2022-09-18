@@ -11,6 +11,7 @@ import {ReactComponent as Home} from '../Styles/img/home.svg';
 import {ReactComponent as Group} from '../Styles/img/users-alt.svg';
 import {ReactComponent as User} from '../Styles/img/user.svg';
 import {ReactComponent as Add} from '../Styles/img/add.svg';
+import { Link } from 'react-router-dom';
 
 function Cursos(){
     const [disciplina, setDisciplina] = useState('');
@@ -58,22 +59,22 @@ function Cursos(){
                 <SidebarSelection>
                     <SidebarItemContainer>
                         <Home style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/'}>Home</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/'}>Home</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
                         <Group style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/alunoRegister'}>Alunos</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/alunoRegister'}>Alunos</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
                         <User style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/professorRegister'}>Professores</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/professorRegister'}>Professores</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
                         <Add style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/cursoRegister'}>Cadastrar Curso</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/cursoRegister'}>Cadastrar Curso</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
@@ -85,6 +86,7 @@ function Cursos(){
                         <Add style={{ width: '20px', height: '100%'}} />
                         <SidebarItem>Lorem Ipsum</SidebarItem>
                     </SidebarItemContainer>
+
                 </SidebarSelection>
             </SideBar>
 

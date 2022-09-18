@@ -9,6 +9,8 @@ import {ReactComponent as User} from '../Styles/img/user.svg';
 import {ReactComponent as Add} from '../Styles/img/add.svg';
 import { LogoProfile, SideBar, SidebarItem, SideBarTitle, SidebarProfile, SidebarItemContainer, SidebarSelection, Separator } from '../Styles/SideBar';
 import { NomeMateria, NomeProfessor, Semestre, TitleCategory, TitleCurso, Titles } from '../Styles/Titles & Subtitles';
+import { Link } from 'react-router-dom';
+import '../App.css'
 function Dashboard(){
     const [curso, setCurso] = useState([]);
 
@@ -52,22 +54,22 @@ function Dashboard(){
                 <SidebarSelection>
                     <SidebarItemContainer>
                         <Home style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/'}>Home</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/'}>Home</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
                         <Group style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/alunoRegister'}>Alunos</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/alunoRegister'}>Alunos</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
                         <User style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/professorRegister'}>Professores</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/professorRegister'}>Professores</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
                         <Add style={{ width: '20px', height: '100%'}} />
-                        <SidebarItem href={'/cursoRegister'}>Cadastrar Curso</SidebarItem>
+                        <Link className={'NavigationLinkSidebar'} to={'/cursoRegister'}>Cadastrar Curso</Link>
                     </SidebarItemContainer>
 
                     <SidebarItemContainer>
@@ -88,22 +90,22 @@ function Dashboard(){
                 <Separator style={{marginTop: '-2%'}}></Separator>
                 <CategorySection>
                         <CategoryContainer>
-                            <CategoryContent href={'/AlunoRegister'} >
-                            <TitleCategory style={{zIndex: '1'}}>Estudantes</TitleCategory>
+                            <CategoryContent >
+                                <Link className={'NavigationLink'} to={'/alunoRegister'}>Estudantes</Link>
                             </CategoryContent>
                             <Students src={require('../Styles/img/studends.jpeg')} />
                         </CategoryContainer>
 
                     <CategoryContainer>
-                        <CategoryContent href={'/ProfessorRegister'}>
-                        <TitleCategory style={{zIndex: '1'}}>Professores</TitleCategory>
+                        <CategoryContent>
+                        <Link className={'NavigationLink'} to={'/professorRegister'}>Professores</Link>
                         </CategoryContent>
                         <Students src={require('../Styles/img/professor.jpg')} />
                     </CategoryContainer>
 
                     <CategoryContainer>
                         <CategoryContent href={'/cursoRegister'}>
-                        <TitleCategory  style={{zIndex: '1', marginLeft: '15%'}}>Cursos</TitleCategory>
+                        <Link className={'NavigationLink'} to={'/cursoRegister'}>Cursos</Link>
                         </CategoryContent>
                         <Students src={require('../Styles/img/course.webp')} />
                     </CategoryContainer>
