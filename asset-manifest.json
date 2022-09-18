@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/gabrielgomesss/MagniFinanceTest.git/static/css/main.6e9eb153.css",
-    "main.js": "/gabrielgomesss/MagniFinanceTest.git/static/js/main.c8ac75a4.js",
-    "static/media/profile.png": "/gabrielgomesss/MagniFinanceTest.git/static/media/profile.4803d0a29762efd159d8.png",
-    "static/media/professor.jpg": "/gabrielgomesss/MagniFinanceTest.git/static/media/professor.7a4a71014c4d606bd12f.jpg",
-    "static/media/materia.webp": "/gabrielgomesss/MagniFinanceTest.git/static/media/materia.69de7acea7d9c3293157.webp",
-    "static/media/studends.jpeg": "/gabrielgomesss/MagniFinanceTest.git/static/media/studends.006b7a6f0597aa7d2bfd.jpeg",
-    "static/media/course.webp": "/gabrielgomesss/MagniFinanceTest.git/static/media/course.ed028ba03072622ccc0d.webp",
-    "index.html": "/gabrielgomesss/MagniFinanceTest.git/index.html",
-    "static/media/users-alt.svg": "/gabrielgomesss/MagniFinanceTest.git/static/media/users-alt.b6601fa093094a077ab4f2dd0390ce84.svg",
-    "static/media/home.svg": "/gabrielgomesss/MagniFinanceTest.git/static/media/home.4fad14b3b5fb8e4633d8b5b461856e1b.svg",
-    "static/media/pencil.svg": "/gabrielgomesss/MagniFinanceTest.git/static/media/pencil.40fd9ec5e8f0f795c118bc77eda492e0.svg",
-    "static/media/trash.svg": "/gabrielgomesss/MagniFinanceTest.git/static/media/trash.491e35cd9023886bf0aebfc6564a8000.svg",
-    "static/media/user.svg": "/gabrielgomesss/MagniFinanceTest.git/static/media/user.7a5044c24fe5f9e251bd3aed3ca84df8.svg",
-    "static/media/add.svg": "/gabrielgomesss/MagniFinanceTest.git/static/media/add.f90a1d01b3af44a9e4f4d60a24a41bc2.svg",
-    "main.6e9eb153.css.map": "/gabrielgomesss/MagniFinanceTest.git/static/css/main.6e9eb153.css.map",
-    "main.c8ac75a4.js.map": "/gabrielgomesss/MagniFinanceTest.git/static/js/main.c8ac75a4.js.map"
+    "main.css": "/MagniFinance/static/css/main.6e9eb153.css",
+    "main.js": "/MagniFinance/static/js/main.34bc9f53.js",
+    "static/media/profile.png": "/MagniFinance/static/media/profile.4803d0a29762efd159d8.png",
+    "static/media/professor.jpg": "/MagniFinance/static/media/professor.7a4a71014c4d606bd12f.jpg",
+    "static/media/materia.webp": "/MagniFinance/static/media/materia.69de7acea7d9c3293157.webp",
+    "static/media/studends.jpeg": "/MagniFinance/static/media/studends.006b7a6f0597aa7d2bfd.jpeg",
+    "static/media/course.webp": "/MagniFinance/static/media/course.ed028ba03072622ccc0d.webp",
+    "index.html": "/MagniFinance/index.html",
+    "static/media/users-alt.svg": "/MagniFinance/static/media/users-alt.b6601fa093094a077ab4f2dd0390ce84.svg",
+    "static/media/home.svg": "/MagniFinance/static/media/home.4fad14b3b5fb8e4633d8b5b461856e1b.svg",
+    "static/media/pencil.svg": "/MagniFinance/static/media/pencil.40fd9ec5e8f0f795c118bc77eda492e0.svg",
+    "static/media/trash.svg": "/MagniFinance/static/media/trash.491e35cd9023886bf0aebfc6564a8000.svg",
+    "static/media/user.svg": "/MagniFinance/static/media/user.7a5044c24fe5f9e251bd3aed3ca84df8.svg",
+    "static/media/add.svg": "/MagniFinance/static/media/add.f90a1d01b3af44a9e4f4d60a24a41bc2.svg",
+    "main.6e9eb153.css.map": "/MagniFinance/static/css/main.6e9eb153.css.map",
+    "main.34bc9f53.js.map": "/MagniFinance/static/js/main.34bc9f53.js.map"
   },
   "entrypoints": [
     "static/css/main.6e9eb153.css",
-    "static/js/main.c8ac75a4.js"
+    "static/js/main.34bc9f53.js"
   ]
 }
